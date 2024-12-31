@@ -109,7 +109,7 @@ a. Inheritance
 b. Encapsulation
 c. Polymorphism
 d. Aggregation --> answer
- */
+*/
 
 /* Que:8 Output of the code ?
 Output: 0, 2
