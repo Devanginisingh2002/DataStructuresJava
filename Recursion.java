@@ -2,40 +2,37 @@
 
 // public class file1 {
 
-//   /**************** PB: 1 PRINT DECREASING ORDER: 10, 9, 8, 7, 6, 5, 4, 3, 2,
-//   1
-//    * *******/
-//   // public static void printDec(int n){
-//   //     // base class
-//   //     if(n == 1){
-//   //         System.out.println(n);
-//   //         return;
-//   //     }
-//   //     System.out.print(n+" ");
-//   //     // inner function
-//   //     printDec(n-1);
-//   // }
+/**************** PB: 1 PRINT DECREASING ORDER: ***************/ 
+  // public static void printDec(int n){
+  //     // base class
+  //     if(n == 1){
+  //         System.out.println(n);
+  //         return;
+  //     }
+  //     System.out.print(n+" ");
+  //     // inner function
+  //     printDec(n-1);
+  // }
 
-//   // public static void main(String args[]){
-//   //     int n = 10;
-//   //     printDec(n);
+  // public static void main(String args[]){
+  //     int n = 10;
+  //     printDec(n);
 
-//   // }
+  // }
+ /**************** PB: 2 PRINT INCREASING ORDER: 1, 2, 3, 4, 5 *******/
 
-//   /**************** PB: 2 PRINT INCREASING ORDER: 1, 2, 3, 4, 5 *******/
-
-//   // public static void printInc(int n){
-//   //     if( n == 1){
-//   //         System.out.print(n + " ");
-//   //         return;
-//   //     }
-//   //     printInc(n-1);
-//   //     System.out.print(n + " ");
-//   // }
-//   // public static void main(String args[]){
-//   //     int n = 5;
-//   //     printInc(n);
-//   // }
+  // public static void printInc(int n){
+  //     if( n == 1){
+  //         System.out.print(n + " ");
+  //         return;
+  //     }
+  //     printInc(n-1);
+  //     System.out.print(n + " ");
+  // }
+  // public static void main(String args[]){
+  //     int n = 5;
+  //     printInc(n);
+  // }
 
 //   /**************** PB: 3 FACTORIAL OF N *******/
 
