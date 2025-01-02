@@ -1,6 +1,6 @@
 // import java.util.*;
 
-// public class file1 {
+// public class Recursion {
 
 /**************** PB: 1 PRINT DECREASING ORDER: ***************/ 
   // public static void printDec(int n){
@@ -23,7 +23,7 @@
 
   // public static void printInc(int n){
   //     if( n == 1){
-  //         System.out.print(n + " ");
+  //         System.out.print(1 + " ");
   //         return;
   //     }
   //     printInc(n-1);
@@ -34,45 +34,45 @@
   //     printInc(n);
   // }
 
-//   /**************** PB: 3 FACTORIAL OF N *******/
+/**************** PB: 3 FACTORIAL OF N *******/
 
-//   // public static int fact(int n){
-//   //     if( n == 0){
-//   //         return 1;
-//   //     }
-//   //     int fnm1 = fact(n-1);
-//   //     int fn = n * fact(n-1);
-//   //     return fn;
-//   // }
+  // public static int fact(int n){
+  //     if( n == 0){
+  //         return 1;
+  //     }
+  //     int fnm1 = fact(n-1);
+  //     int fn = n * fact(n-1);
+  //     return fn;
+  // }
 
-//   // public static void main(String args[]) {
-//   //     int n = 5;
-//   //     System.out.println( fact(n) );
-//   // }
+  // public static void main(String args[]) {
+  //     int n = 5;
+  //     System.out.println( fact(n) );
+  // }
 
-//   /**************** PB: 4 SUM OF FIRST N NATURAL NUMBER ***********/
+/**************** PB: 4 SUM OF FIRST N NATURAL NUMBER ***********/
 
-//   // public static int SumFirstNatural(int n){
-//   //     if (n == 1){
-//   //         return 1;
-//   //     }
-//   //     int Snm1 = SumFirstNatural(n-1);
-//   //     int Sn = n + Snm1;
-//   //     return Sn;
-//   // }
+  // public static int SumFirstNatural(int n){
+  //     if (n == 1){
+  //         return 1;
+  //     }
+  //     int Snm1 = SumFirstNatural(n-1);
+  //     int Sn = n + Snm1;
+  //     return Sn;
+  // }
 
-//   // public static void main(String args[]){
-//   //     int n = 5;
-//   //     System.out.println(SumFirstNatural(n));
-//   // }
-// }
+  // public static void main(String args[]){
+  //     int n = 5;
+  //     System.out.println(SumFirstNatural(n));
+  // }
+}
 
 // File: 2
 
 import java.util.*;
 
 public class file2 {
-
+  
   /****************PB:5 FIBONACCI NUMBER ***********/
   // public static int FibonacciSeries(int n){
   //     if(n == 0 || n == 1){
