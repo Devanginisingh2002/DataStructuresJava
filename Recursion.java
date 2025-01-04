@@ -184,8 +184,8 @@
 
   /************** PB:11 Tilling Probblem  **************/
 
-  // public static int tillingProblem(int n){    // 2 X n (floor size) length =
-  // n and breadth = 2.
+  // public static int tillingProblem(int n){    
+  // 2 X n (floor size) length = n and breadth = 2.
   //     // base case
   //     if(n == 0 || n == 1){
   //         return 1;
@@ -193,14 +193,13 @@
 
   //     // work
   //     // vertical choice
-  //     int verticalTiles = tillingProblem(n-1);    //f(n-1)
+  //     int verticalTiles = tillingProblem(n-1);  
 
   //     //Horizontal ways
-  //     int horizontalTiles = tillingProblem(n-2);  //f(n-2)
+  //     int horizontalTiles = tillingProblem(n-2);  
 
   //     int totalWays = verticalTiles + horizontalTiles;
   //     return totalWays;
-
   // }
 
   // public static void main(String args[]){
@@ -208,7 +207,7 @@
   // }
 
   /************** PB:12 Remove Duplicates in a String **************/
-  // "a to z" only
+  // "a to z" only, not special char
 
   // public static void removeDuplicates(String str, int idx, StringBuilder
   // newStr, boolean map[]){
@@ -240,11 +239,10 @@
   // }
 
   // work
-
   // single
   //  int Fnm1 = pairProblem(n-1);
 
-  // //pair
+  //pair
   // int Fnm2 = pairProblem(n-2);
   // int pairWays = (n-1)*Fnm2;
 
@@ -252,7 +250,7 @@
   // int totalWays = Fnm1 + pairWays;
   // return totalWays;
 
-  // return pairProblem(n-1) + (n-1) * pairProblem(n-2);
+  // return pairProblem(n-1) + (n-1) * pairProblem(n-2);    //In Single line
   // }
 
   // public static void main(String args[]){
