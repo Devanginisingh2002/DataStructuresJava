@@ -101,7 +101,7 @@ public class DivideConquer {
         arr[i] = temp;
       }
     }
-    i++;
+    i++; 
     // swap
     int temp = pivot;
     arr[ei] = arr[i];
