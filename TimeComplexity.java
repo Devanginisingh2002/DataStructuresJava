@@ -92,6 +92,23 @@ Worst Case: O(n^2) and Best Case: O(n^2)
  * Recursive Complexity Analysis:
  T.C: O(n)
 
- * Sum of N
+ * Sum of N: Same as factorial Call
+ T.C: O(n)
+ S.C: O(n)
+
+ * Fibonacci Analysis
+ T.C: O(2^n)
+ S.C: O(n)
+
+ * Merge Sort Analysis
+ T.C: O(nlogn)
+
+ * Power Function 1 and 2: Analysis
+ T.C: O(n)
+ S.C: O(n)
+
+ * Power Function 3: Analysis
+ T.C: O(logn)
+ S.C: O(logn)
 
 */
