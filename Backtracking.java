@@ -8,9 +8,9 @@ public class Backtracking {
     //         return;
     //     }
     //     //recursion
-    //     arr[i] = val;
-    //     changeArr(arr, i+1, val+1);
-    //     arr[i] = arr[i] - 2;
+    //     arr[i] = val;    // assign value
+    //     changeArr(arr, i+1, val+1);  // function call
+    //     arr[i] = arr[i] - 2;     // backtracking step
     // }
 
     // public static void printArr(int arr[]){
@@ -28,13 +28,15 @@ public class Backtracking {
 
     /************ Find Subsets ***********/
     // public static void findSubsets(String str, String ans, int i){
+    // str: existing string, ans: taking new string for subsets store, and i: index of the string
     //     // base case
     //     if(i == str.length()) {
     //         System.out.println(ans);
     //         return;
     //     }
+    //Two choices: Yes and No
     //     // Yes Choice
-    //     findSubsets(str, ans+str.charAt(i), i+1);
+    //     findSubsets(str, ans+str.charAt(i), i+1);    
     //     // No Choice
     //     findSubsets(str, ans, i+1);
     // }
